@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Slike, klipovi, drustvene mreže, ... formula student tima “Drumska Strela”" />
+
+    <meta name="Keywords" content="drumska strela, road arrow, formula student, formula, srpska formula, studentska formula, studentsko vozilo, srpski bolid, studentski bolid, varijabilni usis, svetska studentska takmicenja,">
+    <meta name="Robots" content="INDEX, FOLLOW">
+    <meta name="Audience" content="all">
+    <meta name="Revisit-after" content="day 1">
+    <meta name="Content-language" content="sr">
+    <meta name="Language" content="serbian">
+    <meta name="Author" content="Drumska strela">
+    <meta name="Publisher" content="Drumska strela">
+    <meta name="Page-type" content="Drumska strela">
+    <meta name="Page-topic" content="Drumska strela">
+    <meta name="DC.Creator" content="Drumska strela">
+    <meta name="DC.Publisher" content="Drumska strela">
+    <meta name="DC.Rights" content="stt.org.rs">
+    <meta name="DC.Language" content="sr">
+    <meta name="DC.contributor" content="Drumska strela">
+
+    <link rel="shortcut icon" href="../img/header-footer/tab_icon.png" />
+    <title> Media </title>
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <link href="../css/footer.css" rel="stylesheet" />
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+
+
+    <style>
+        .podkategorija {
+            font-weight: 500; 
+            font-size: 1.5rem;
+            color: white; 
+            text-align: left;
+            position: absolute; 
+            top: 0px;
+            margin-left: 5px;
+            padding-top: 0.6rem; 
+            padding-left: 1.1rem; 
+            font-style: italic;
+            background: rgba(0,0,0,0.3);
+            width: 100%;
+            height: 100%;
+        }
+
+        .donja {
+            margin-bottom: -70px;
+        }
+
+        .column .prviRed {
+            max-width: 350px;
+            display: inline-block;
+            vertical-align: top;
+            float: none;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .column .drugiRed {
+            max-width: 350px;
+            display: inline-block;
+            vertical-align: bottom;
+            float: none;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .column a {
+            text-decoration: none;
+        }
+
+        figure img{
+            max-width: 350px;
+            display: inline-block;
+            vertical-align: top;
+            float: none;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        figure {
+            display: inline-block;
+            vertical-align: top;
+            float: none;
+            max-width: 350px;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        /* Shine */
+        .hover14 figure {
+            position: relative;
+        }
+        .hover14 figure::before {
+            position: absolute;
+            top: 0;
+            left: -75%;
+            z-index: 2;
+            display: block;
+            content: '';
+            width: 50%;
+            height: 100%;
+            background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+            -webkit-transform: skewX(-25deg);
+            transform: skewX(-25deg);
+        }
+        .hover14 figure:hover::before {
+            -webkit-animation: shine 2s;
+            animation: shine 2s;
+        }
+        @-webkit-keyframes shine {
+            100% {
+	            left: 125%;
+            }
+        }
+        @keyframes shine {
+            100% {
+	            left: 125%;
+            }
+        }
+
+        @media screen and (max-width: 1200px){
+            .donja {
+                margin-bottom: -60px;
+            }
+
+            .column .prviRed,
+            .column .drugiRed,
+            figure img,
+            figure {
+                /*margin-bottom: 10px;
+                display: block*/
+                max-width: 300px;
+            }
+        }
+
+        @media screen and (max-width: 995px){
+            .donja {
+                margin-bottom: -40px;
+            }
+
+            .column .prviRed,
+            .column .drugiRed,
+            figure img,
+            figure {
+                /*margin-bottom: 10px;
+                display: block*/
+                max-width: 200px;
+            }
+        }
+
+        /*@media (max-width: 750px) {
+            .donja {
+                margin-bottom: -40px;
+            }
+        }*/
+
+        @media screen and (max-width: 660px){
+            .donja {
+                margin-bottom: 0px;
+            }
+
+            .column .prviRed,
+            .column .drugiRed,
+            figure img,
+            figure {
+                margin-bottom: 10px;
+                max-width: 350px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <a name="top" id="top"></a>
+
+    <header class="row" id="header">
+        <p class="col-md-3 col-md-offset-1" id="header-left">
+            <a href="karijera.html"> KARIJERA </a>
+            <a href="#"> / </a>
+            <!--<a href="poslovi.html"> POSLOVI </a>
+            <a href="#"> / </a>-->
+            <a href="alumni.html"> ALUMNI </a>
+        </p>
+
+        <p class="col-md-3 col-md-offset-4" id="header-rigth">
+            <a href="#"> SR </a>
+            <a href="#"> / </a>
+            <a href="ciril/mediaCiril.html"> СР </a>
+            <a href="#"> / </a>
+            <a href="eng/mediaEng.html"> EN </a>
+            <!--<a href="#"> / </a>
+            <a href="#"> DE </a>-->
+        </p>
+    </header>
+
+
+    <nav class="navbar navbar-default" style="margin: 0px; border-radius: 0px;">
+        <div class="container" id="nav">
+            <!-- logo -->
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--<img runat="server" class="navbar-brand" src="~/img/header-footer/logo.png" />-->
+            </div>
+
+            <!-- stranice menia -->
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="nav navbar-nav">
+                    <li> <a href="index.html"> POČETNA </a> </li>
+                    <li> <a href="formulaStudent.html"> FORMULA STUDENT </a> </li>
+                    <li> <a href="oNama.html"> O NAMA </a> </li>
+                    <li> <a href="tim.html"> TIM </a> </li>
+                    <li> <a href="vozila.html"> VOZILA </a> </li>
+                    <li> <a href="sponzori.html"> SPONZORI </a> </li>
+                    <li class="active"> <a href="media.html"> MEDIA </a> </li>
+                    <!--<li> <a href="prodavnica.html"> PRODAVNICA </a> </li>-->
+                    <li> <a href="kontakt.php"> KONTAKT </a> </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <img class="img-responsive" id="header_img_2" src="../img/header-footer/header2.png" />
+
+    <main>
+
+        <div class="container" id="wrapper">
+            <center><!--<img class="img-responsive" id="naslovi" src="../img/media/media.png" />-->
+                <h1 id="naslovPrvi" style="margin-bottom: 70PX;"><b> <span class="linija"></span>&nbsp&nbsp <i> MEDIA </i> &nbsp&nbsp<span class="linija"></span> </b> </h1>
+            </center>
+
+            <!--<center>
+                <img class="img-responsive" style="margin-bottom: 50px; padding-left: 5px; padding-right: 5px;" src="../img/media/7.jpg" />
+            </center>-->
+
+            <!---------------------------- Sredi malo responziju ----------------------------------->
+            <center><div class="hover14 column donja">
+                <div class="prviRed">
+                    <a href="odnosiSJavnoscu.html"> <figure> 
+                        <img class="img-responsive" src="../img/media/1.gif" />
+                        <p class="podkategorija"> ODNOSI S <br />JAVNOŠĆU </p>
+                    </figure> </a>
+                    <!--<span>Hover</span>-->
+                </div>
+                <div class="prviRed">
+                    <a href="video.html"> <figure>
+                        <img class="img-responsive" src="../img/media/2.gif" />
+                        <p class="podkategorija"> VIDEO </p>
+                    </figure> </a>
+                    <!--<span>Hover</span>-->
+                </div>
+                <div class="prviRed">
+                    <a href="aplikacije.html"> <figure>
+                        <img class="img-responsive" src="../img/media/3.jpg" />
+                        <p class="podkategorija"> APLIKACIJE </p>
+                    </figure> </a>
+                    <!--<span>Hover</span>-->
+                </div>
+            </div></center>
+
+            <center><div class="hover14 column">
+                <div class="drugiRed">
+                    <a href="drustveneMreze.html"> <figure>
+                        <img class="img-responsive" src="../img/media/4.jpg" />
+                        <p class="podkategorija"> DRUŠTVENE <br />MREŽE </p>
+                    </figure> </a>
+                    <!--<span>Hover</span>-->
+                </div>
+                <div class="drugiRed">
+                    <a href="slike.html"> <figure>
+                        <img class="img-responsive" src="../img/media/5.jpg" />
+                        <p class="podkategorija"> SLIKE </p>                        
+                    </figure> </a>
+                    <!--<span>Hover</span>-->
+                </div>
+                <div class="drugiRed">
+                    <a href="../brosure/Brosura2017.pdf" target="_blank"> <figure>
+                        <img class="img-responsive" src="../img/media/6.jpg" />
+                        <p class="podkategorija"> BROŠURE </p>
+                    </figure> </a>
+                    <!--<span>Hover</span>-->
+                </div>
+            </div></center>
+
+        </div>
+
+        <div class="skroldiv" id="skroldiv">
+            <div class="brziskrol">
+                <a href="#top" class="skrol top" id="skroltop"> <b>&#8657;</b> </a>
+            </div>
+        </div>
+
+        <script>
+            $(window).scroll(function () {
+                if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                    $('#skroldiv').fadeIn(500);    // Fade in the arrow
+                } else {
+                    $('#skroldiv').fadeOut(500);   // Else fade out the arrow
+                }
+            });
+
+            skroltop.onclick = function () {
+
+                $('html, body').animate({
+                    scrollTop: $("#top").offset().top
+                }, 1000);
+
+            };
+        </script>
+
+    </main>
+
+    <!--<hr />-->
+    <footer>
+        <!--<p id="copyright"> Copyright &copy; <%: DateTime.Now.Year %> Drumska Strela </p>-->
+        <img class="img-responsive" id="footer_img" src="../img/header-footer/footer.png" />
+    </footer>
+
+</body>
+</html>
