@@ -1,0 +1,2 @@
+Rebasing linearizuje grane, tj ako is imao master i jednu granu ta grana ce otici direkt ispod mastera, 
+sto znaci da imas linearnu strukturu, a pritom rebasing istovremeno vrsi mrdzovanje
